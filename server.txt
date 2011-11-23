@@ -4,6 +4,6 @@ sparkleshare start at 12:58:57
 |   Edit from    |    time    | changed on (sync) |   time  |
 -------------------------------------------------------------
 
-  local machine               github
+  local machine     13:01:00      github
 
      github            local machine  
