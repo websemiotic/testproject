@@ -5,4 +5,4 @@ sparkleshare start at 12:58:57
 
   local machine     13:01:00         github         13:01:05
 
-     github         13:01:50      local machine  
+     github         13:01:50      local machine	    13:09:08  
