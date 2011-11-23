@@ -1,4 +1,9 @@
-Edit from  -  time  - changed on (sync) - time
-----------------------------------------------
 
-github -  12:55:05  - local mchine - 
+sparkleshare start at 12:58:57
+
+|   Edit from    |    time    | changed on (sync) |   time  |
+-------------------------------------------------------------
+
+  local machine               github
+
+     github            local machine  
