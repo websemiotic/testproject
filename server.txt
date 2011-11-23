@@ -1,8 +1,153 @@
 sparkleshare start at 12:58:57
 
+
 |   Edit from    |    time    | changed on (sync) |   time  |
 -------------------------------------------------------------
 
   local machine     13:01:00         github         13:01:05
 
      github         13:01:50      local machine	    13:09:08  
+
+
+
+
+console log
+
+
+websemiotic@websemiotic-home:~/.config/sparkleshare$ Identity added: /home/websemiotic/.config/sparkleshare/sparkleshare.fourthgnossienne@gmail.com.key (/home/websemiotic/.config/sparkleshare/sparkleshare.fourthgnossienne@gmail.com.key)
+12:58:57 [Cmd] /usr/bin/git log -1 --format=%H
+12:58:57 [Cmd] /usr/bin/git rev-list --reverse HEAD
+12:58:57 [ListenerFactory] Issued new listener for tcp://204.62.14.135:1986/
+12:58:57 [ListenerTcp] Connecting to 204.62.14.135
+12:58:57 [Cmd] /usr/bin/git status --porcelain
+12:58:57 [Cmd] /usr/bin/git log -1 --format=%H
+12:58:57 [Cmd] /usr/bin/git rev-list --reverse HEAD
+12:58:57 [ListenerFactory] Refered to existing listener for tcp://204.62.14.135:1986/
+12:58:58 [Listener] Listening for announcements on tcp://204.62.14.135:1986/
+12:58:58 [Git][recent-photos] Checking for remote changes...
+12:58:58 [Cmd] /usr/bin/git ls-remote origin master
+12:58:58 [Cmd] /usr/bin/git log -1 --format=%H
+12:58:58 [ListenerTcp] Subscribing to channel 5e3caaea7bb5e38fea6199af66405c422738c5c1
+12:58:58 [Git][recent-photos (2)] Checking for remote changes...
+12:58:58 [Cmd] /usr/bin/git ls-remote origin master
+12:58:58 [Cmd] /usr/bin/git status --porcelain
+12:58:58 [Cmd] /usr/bin/git log -1 --format=%H
+12:58:58 [Cmd] /usr/bin/git rev-list --reverse HEAD
+12:58:58 [ListenerFactory] Refered to existing listener for tcp://204.62.14.135:1986/
+12:58:58 [ListenerTcp] Subscribing to channel 4e1c65cbf48e0cb25242fa88a6a7e60857611400
+12:58:58 [Cmd] /usr/bin/git status --porcelain
+12:58:58 [Git][testproject] Checking for remote changes...
+12:58:58 [Cmd] /usr/bin/git ls-remote origin master
+12:59:01 [Cmd] /usr/bin/git log -1 --format=%H
+^C
+websemiotic@websemiotic-home:~/.config/sparkleshare$ 12:59:03 [Cmd] /usr/bin/git log -1 --format=%H
+13:00:10 [Cmd] /usr/bin/git status --porcelain
+13:00:10 [Event][testproject] Renamed 'server.txt'
+13:00:10 [Event][testproject] Changes found, checking if settled.
+13:00:11 [Local][testproject] Changes have settled.
+13:00:11 [Cmd] /usr/bin/git status --porcelain
+13:00:11 [SyncUp][testproject] Initiated
+13:00:11 [Cmd] /usr/bin/git add --all
+13:00:11 [Git][testproject] Changes staged
+13:00:11 [Cmd] /usr/bin/git status --porcelain
+13:00:11 [Cmd] /usr/bin/git commit -m "/ ‘server.txt’" --author="Юлий Димитров <fourthgnossienne@gmail.com>"
+13:00:11 [Commit][testproject] / ‘server.txt’
+13:00:11 [Cmd] /usr/bin/git push origin master
+Counting objects: 5, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 456 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To ssh://git@github.com/websemiotic/testproject
+   3dac4bf..cf3dc0c  master -> master
+13:00:14 [SyncUp][testproject] Done
+13:00:14 [Cmd] /usr/bin/git log -1 --format=%H
+13:00:14 [Listener] Announcing message cf3dc0cb764a1d562164c6eac1223a970a2852fd to 4e1c65cbf48e0cb25242fa88a6a7e60857611400 on tcp://204.62.14.135:1986/
+13:00:14 [Cmd] /usr/bin/git status --porcelain
+13:00:14 [Listener] Got message cf3dc0cb764a1d562164c6eac1223a970a2852fd from 4e1c65cbf48e0cb25242fa88a6a7e60857611400 on tcp://204.62.14.135:1986/
+13:00:14 [Listener] Ignoring previously processed message cf3dc0cb764a1d562164c6eac1223a970a2852fd from 4e1c65cbf48e0cb25242fa88a6a7e60857611400 on tcp://204.62.14.135:1986/
+13:01:00 [Cmd] /usr/bin/git status --porcelain
+13:01:00 [Event][testproject] Created 'server.txt'
+13:01:00 [Event][testproject] Changes found, checking if settled.
+13:01:00 [Local][testproject] Changes have settled.
+13:01:00 [Cmd] /usr/bin/git status --porcelain
+13:01:00 [SyncUp][testproject] Initiated
+13:01:00 [Cmd] /usr/bin/git add --all
+13:01:00 [Git][testproject] Changes staged
+13:01:00 [Cmd] /usr/bin/git status --porcelain
+13:01:00 [Cmd] /usr/bin/git commit -m "/ ‘server.txt’" --author="Юлий Димитров <fourthgnossienne@gmail.com>"
+13:01:00 [Commit][testproject] / ‘server.txt’
+13:01:00 [Cmd] /usr/bin/git push origin master
+Counting objects: 5, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 383 bytes, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To ssh://git@github.com/websemiotic/testproject
+   cf3dc0c..896c3e7  master -> master
+13:01:03 [SyncUp][testproject] Done
+13:01:03 [Cmd] /usr/bin/git log -1 --format=%H
+13:01:03 [Listener] Announcing message 896c3e7df346230702aeea759dd0403d1509fab4 to 4e1c65cbf48e0cb25242fa88a6a7e60857611400 on tcp://204.62.14.135:1986/
+13:01:03 [Cmd] /usr/bin/git status --porcelain
+13:01:04 [Listener] Got message 896c3e7df346230702aeea759dd0403d1509fab4 from 4e1c65cbf48e0cb25242fa88a6a7e60857611400 on tcp://204.62.14.135:1986/
+13:01:04 [Listener] Ignoring previously processed message 896c3e7df346230702aeea759dd0403d1509fab4 from 4e1c65cbf48e0cb25242fa88a6a7e60857611400 on tcp://204.62.14.135:1986/
+13:08:58 [Git][recent-photos (2)] Checking for remote changes...
+13:08:58 [Cmd] /usr/bin/git ls-remote origin master
+13:09:03 [Git][testproject] Checking for remote changes...
+13:09:03 [Cmd] /usr/bin/git ls-remote origin master
+13:09:03 [Cmd] /usr/bin/git log -1 --format=%H
+13:09:07 [Git][recent-photos] Checking for remote changes...
+13:09:07 [Cmd] /usr/bin/git ls-remote origin master
+13:09:08 [Cmd] /usr/bin/git log -1 --format=%H
+13:09:08 [Git][testproject] Remote changes found. (f9d9a7388feb8b0f7b1186910a102492c1dc12e5  refs/heads/master)
+13:09:08 [SyncDown][testproject] Initiated
+13:09:08 [Cmd] /usr/bin/git log -1 --format=%H
+13:09:08 [Cmd] /usr/bin/git fetch -v
+13:09:08 [Cmd] /usr/bin/git log -1 --format=%H
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), done.
+From ssh://github.com/websemiotic/testproject
+   896c3e7..f9d9a73  master     -> origin/master
+13:09:11 [Cmd] /usr/bin/git status --porcelain
+13:09:11 [Cmd] /usr/bin/git rebase -v FETCH_HEAD
+13:09:11 [SyncDown][testproject] Done
+13:09:11 [Cmd] /usr/bin/git log -1 --format=%H
+13:09:11 [Cmd] /usr/bin/git log -1 --raw -M --date=iso
+13:09:11 [Controller] Failed fetching gravatar for contact@fourthgnossienne.com
+websemiotic@websemiotic-home:~/.config/sparkleshare$ 13:18:58 [Git][recent-photos (2)] Checking for remote changes...
+13:18:58 [Cmd] /usr/bin/git ls-remote origin master
+13:19:03 [Cmd] /usr/bin/git log -1 --format=%H
+13:19:07 [Git][recent-photos] Checking for remote changes...
+13:19:07 [Cmd] /usr/bin/git ls-remote origin master
+13:19:08 [Cmd] /usr/bin/git log -1 --format=%H
+13:24:42 [Cmd] /usr/bin/git status --porcelain
+13:24:42 [Event][testproject] Created 'server.txt'
+13:24:42 [Event][testproject] Changes found, checking if settled.
+13:24:43 [Local][testproject] Changes have settled.
+13:24:43 [Cmd] /usr/bin/git status --porcelain
+13:24:43 [SyncUp][testproject] Initiated
+13:24:43 [Cmd] /usr/bin/git add --all
+13:24:43 [Git][testproject] Changes staged
+13:24:43 [Cmd] /usr/bin/git status --porcelain
+13:24:43 [Cmd] /usr/bin/git commit -m "/ ‘server.txt’" --author="Юлий Димитров <fourthgnossienne@gmail.com>"
+13:24:43 [Commit][testproject] / ‘server.txt’
+13:24:43 [Cmd] /usr/bin/git push origin master
+Counting objects: 5, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 386 bytes, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To ssh://git@github.com/websemiotic/testproject
+   f9d9a73..418f5ff  master -> master
+13:24:47 [SyncUp][testproject] Done
+13:24:47 [Cmd] /usr/bin/git log -1 --format=%H
+13:24:47 [Listener] Announcing message 418f5ffe2f58d82be21ea1a5c22ae2ead2c63354 to 4e1c65cbf48e0cb25242fa88a6a7e60857611400 on tcp://204.62.14.135:1986/
+13:24:47 [Cmd] /usr/bin/git status --porcelain
+13:24:47 [Listener] Got message 418f5ffe2f58d82be21ea1a5c22ae2ead2c63354 from 4e1c65cbf48e0cb25242fa88a6a7e60857611400 on tcp://204.62.14.135:1986/
+13:24:47 [Listener] Ignoring previously processed message 418f5ffe2f58d82be21ea1a5c22ae2ead2c63354 from 4e1c65cbf48e0cb25242fa88a6a7e60857611400 on tcp://204.62.14.135:1986/
+13:24:57 [Git][testproject] Checking for remote changes...
+13:24:57 [Cmd] /usr/bin/git ls-remote origin master
+13:25:00 [Cmd] /usr/bin/git log -1 --format=%H
+
